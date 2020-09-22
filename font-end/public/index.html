@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="colorlib.com" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      rel="stylesheet"
+    />
+    <link href="./css/main.css" rel="stylesheet" />
+    <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="s008">
+            <form >
+              <div class="inner-form">
+                <div class="basic-search">
+                  <div class="input-field autocomplete">
+                    <input
+                      id="searchKeywords"
+                      type="text"
+                      placeholder="Search By Keywords"
+                    />
+                  </div>
+                </div>
+                <div id="result-from-keyword" class="result-in"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="s008">
+            <form >
+              <div class="inner-form">
+                <div class="basic-search">
+                  <div class="input-group">
+                    <input id="searchId" style="height: 70px;" type="text" class="form-control" placeholder="Search by Id" value="">
+                    <div class="input-group-append">
+                      <button id="submit" class="btn btn-primary" type="button" onclick="formClick()">
+                        <i class="fa fa-search"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div id="result-from-Id" class="result-in"></div>
+              </div>
+            </form>
+            `
+          </div>
+        </div>
+        <!-- <div class="col-sm">
+          <div class="s008">
+            <form >
+              <div class="inner-form">
+                <div id="result-list" class="result-in"></div>
+              </div>
+            </form>
+            `
+          </div>
+        </div> -->
+      </div>
+      <h3>Get All Review</h3>
+      <div id="result-list" class="row">
+        
+      </div>
+    </div>
+
+    <script src="./js/bootstrap/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
