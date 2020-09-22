@@ -3,7 +3,7 @@
 # API
 
 - Get All Review (10)
- >**GET** http://localhost:5555/reviews/all
+  >**GET** http://localhost:5555/reviews/all
 
 - Search by keywords
   >**GET**  http://localhost:5555/reviews/search?query=example
